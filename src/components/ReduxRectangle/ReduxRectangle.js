@@ -6,9 +6,6 @@ import {toggleRect} from "../../state/rectangle";
 
 class ReduxRectangle extends React.Component {
 
-    state = {
-        isRectVisible: true
-    }
 
     render() {
 

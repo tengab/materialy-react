@@ -11,6 +11,8 @@ import FirebaseLogIn from './components/FirebaseLogIn'
 import ReduxToDo from './components/ReduxToDo'
 import ReduxSimpleText from './components/ReduxSimpleText'
 import ReduxRectangle from "./components/ReduxRectangle/";
+import ReduxCounter from "./components/ReduxCounter/"
+import ReduxAsyncActions from "./components/ReduxAsyncActions"
 
 const routes = [
     {
@@ -78,7 +80,19 @@ const routes = [
         path: '/component/redux-rectangle',
         text: 'Redux Rectangle',
         component: ReduxRectangle
+    },
+    {
+        path: '/component/redux-counter',
+        text: 'Redux Counter',
+        component: ReduxCounter
+    },
+    {
+        path: '/component/redux-async-action',
+        text: 'Redux Async Action',
+        component: ReduxAsyncActions
     }
+
+
 
 ]
 
