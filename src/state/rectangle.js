@@ -1,4 +1,4 @@
-const TOGGLE_RECT = 'rect/TOGGLE_RECT'
+const TOGGLE_RECT = 'rectangle/TOGGLE_RECT'
 
 export const toggleRect = () => ({
     type: TOGGLE_RECT,
